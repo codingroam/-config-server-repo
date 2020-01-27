@@ -1,7 +1,7 @@
 env: dev
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
@@ -15,5 +15,4 @@ spring:
     port: 6379
   jpa:
     show-sql: true
-girl: 18
-age: uuuuuuuuuuuuuuuuu2229999
+
